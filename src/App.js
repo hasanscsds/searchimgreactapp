@@ -51,7 +51,7 @@ function App() {
           <div className="result"> {/* NATIJA CARD KO'RINISHIDA CHIQADI */}
             {result.map((image, id) => (
               <div className="card" key={image.id}>
-                <a>
+                <a href="#n">
                   {/*RASM LAZY LOAD HOLATIDA CHIQISHI */}
                   <LazyLoadImage
                     className="resultImage"
